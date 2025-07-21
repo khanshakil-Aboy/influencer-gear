@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     font-family: "Poppins", sans-serif;
+  
+  font-style: normal;
+}
+
+/* nav container */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: 40px auto;
+    
+}
+
+.nav-title h3{
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.nav-menu, .nav-items{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items li{
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
