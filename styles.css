@@ -178,6 +178,45 @@ section{
     
 }
 
+/* footer section */
+.footer{
+    background-color:#0A0826 ;
+}
+
+.footer-container{
+    max-width: 320px;
+    max-height: 140px;
+    margin: 0px auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-dis{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #FFFFFF;
+    gap: -5px;
+   
+}
+.footer-icon i{
+    
+    margin-top: 15px; 
+    font-size: 1.8rem;
+}
+
 
 /* Media quary */
 
@@ -236,6 +275,13 @@ section{
     }
     .last-dis{
         max-width: 100%;
+    }
+
+    /* foooter section */
+    .footer-container{
+        max-width: 100%;
+        padding: 20px;
+        max-height: 100vh;
     }
 
 }
